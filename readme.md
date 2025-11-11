@@ -152,6 +152,7 @@ python run_graphdb.py --date_st 20230301 --date_fn 20230331
 python run_graphdb.py --config config.json
 ```
 
+```file
 graph_generator/
 ├── stock_knowledge_graph.py # Neo4j 지식 그래프 클래스
 ├── kgqa_system.py # KGQA 시스템 구현
