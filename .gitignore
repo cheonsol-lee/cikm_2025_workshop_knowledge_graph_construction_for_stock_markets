@@ -1,0 +1,81 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+*.virtualenv
+*.env
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- OS & Editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# --- Logs & Caches ---
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.zip
+*.tar
+*.tar.gz
+.cache/
+pytest_cache/
+__snapshots__/
+*.ipynb_checkpoints
+
+# --- Data files (optional: comment out if you want to track data) ---
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.npz
+*.npy
+*.dat
+
+# --- Environment / Config ---
+*.env
+.env.*
+*.ini
+*.toml
+*.yaml
+*.yml
+
+# --- Build & Dist ---
+build/
+dist/
+*.bak
+*.tmp
+*.old
+
+# --- Checkpoints / Training outputs ---
+runs/
+outputs/
+models/
+checkpoints/
