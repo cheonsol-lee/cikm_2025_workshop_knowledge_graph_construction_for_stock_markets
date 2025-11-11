@@ -152,7 +152,8 @@ python run_graphdb.py --date_st 20230301 --date_fn 20230331
 python run_graphdb.py --config config.json
 ```
 
-####file
+###file
+```
 graph_generator/
 ├── stock_knowledge_graph.py # Neo4j 지식 그래프 클래스
 ├── kgqa_system.py # KGQA 시스템 구현
@@ -166,10 +167,9 @@ graph_generator/
 ├── config_sample.json # 설정 파일 샘플
 ├── config.json # 실제 설정 파일
 └── .env # 환경 변수 파일
+```
 
-
-####shellscript
-
+###shellscript
 ```
 # 기존 데이터 삭제 후 새로 생성
 python run_graphdb.py --clear --dates 20230306
